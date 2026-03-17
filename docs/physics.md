@@ -45,7 +45,7 @@ F_i = \sum_{j \ne i} F_{ij}
 $$
 
 
-## Time Discretization
+## Time Discretisation
 The simulation advances time using discrete timesteps:
 
 t → t + Δt
