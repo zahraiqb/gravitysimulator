@@ -12,10 +12,12 @@ interactions between celestial bodies.
 Simply put, the engine calculates total gravitational forces acting on each body
 and updates their velocity and position over time.
 
-Current situation/focus:
-Accurate implementation of the gravitational physics and stable numerical integration. 
+Current progress:
+Currently focused on theoretics such as implementing vector maths,defining the physical model for gravitational interactions, documenting the equations and assumptions used in the simulator
 
-find (unfinished) devlogs for more information about the underling physics, math and reasoning here:
-docs/devlogs.md
+find (unfinished) devlogs for more information about the underling physics, math and general science-y bits here:
+docs/physcis.md
+docs/integrators.md
 
-ongoing..
+
+ongoing.. :T
