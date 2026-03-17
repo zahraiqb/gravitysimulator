@@ -3,7 +3,7 @@
 The equations of motion cant always be solved analytically
 for many-body systems
 
-A better solution is to approximate motion over small time steps using numerical integration methods
+A better solution is to approximate motion over small time steps using numerical integration methods (specifically Euler Methods)
 
 ## Euler Integration
 simple but unstable for long running gravitational simulations because it doesnt conserve energy well
