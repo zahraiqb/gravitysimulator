@@ -1,8 +1,7 @@
 most gravity equations can be found here. 
 
 # Gravitational Model
-This simulation uses Newtonian gravity. 
-## which describes gravity as a resultant force acting between all objects with a mass
+This simulation uses Newtonian gravity which describes gravity as a resultant force acting between all objects with a mass
 
 $$
 F = G \frac{m_1 m_2}{r^2}
@@ -20,14 +19,12 @@ F = ma
 $$
 
 Therefore:
-
 $$
 a = \frac{F}{m}
 $$
 
 
 ## Vector Form
-
 Gravitational force between bodies i and j:
 
 $$
@@ -36,12 +33,10 @@ G \frac{m_i m_j}{|\vec{r}_{ij}|^3} \vec{r}_{ij}
 $$
 
 Where:
-
 - $\vec{r}_{ij}$ is the displacement vector between bodies.
 
 
 ## N-Body Simulation
-
 The total force on a body is the sum of gravitational forces
 from all other bodies.
 
@@ -51,15 +46,11 @@ $$
 
 
 ## Time Discretization
-
 The simulation advances time using discrete timesteps:
 
 t → t + Δt
 
-Each timestep updates:
-
+Each timestep updates
 - acceleration
 - velocity
 - position
-
-- 
